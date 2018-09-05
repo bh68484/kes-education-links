@@ -16,13 +16,22 @@ body {
 /* Footer */
 
 footer {
-  background-color: #2c3742;
+  background-image: linear-gradient(
+    to right,
+    #0071bc,
+    #1978bc,
+    #2b7fbb,
+    #3b86ba,
+    #4a8db9
+  );
   box-shadow: inset 0px 0px 3px #111;
   color: #fff;
   font-size: 14px;
   line-height: 25px;
-  padding: 10px 0px 10px 0px;
+  padding: 20px 0px 20px 0px;
   bottom: 0px;
+  width: 100%;
+  position: fixed;
 }
 
 footer a {
@@ -52,8 +61,16 @@ footer .copy {
 /* Logo & Navigation */
 
 .header {
-  height: 50px;
-  background-color: #2c3742;
+  height: 100px;
+  /* background-color: #0071bc; */
+  background-image: linear-gradient(
+    to right,
+    #0071bc,
+    #1978bc,
+    #2b7fbb,
+    #3b86ba,
+    #4a8db9
+  );
 }
 
 .header .logo h1 {
